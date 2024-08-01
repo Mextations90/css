@@ -1,0 +1,10 @@
+.text-container{
+
+    font-size: 1.5em;
+}
+
+/* APARECE UN ERROR PORQUE EL DIV TIENE UNA MEDIDA Y LE SUMA LA MEDIDA DE SU MADRE MAIN (TEXT.CONTAINER) */
+.text-container div{
+
+    font-size: 1.5em;
+}
