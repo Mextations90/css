@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.universo{
+    width: 100vw;
+    height: 100vh;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    color: azure;
+    font-size: 8px;
+    
+}
+
+.title-izquierda{
+    padding-left: 20px;
+}
+
+.title-derecha{
+    padding-right: 20px;
+}
+
