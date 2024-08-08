@@ -2,10 +2,21 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
 }
 
-main{
+main {
     width: 100vw;
     height: 100vh;
+    background-color: blueviolet;
 }
+
+section{
+
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    background-color: red;
+
+}
+
+
