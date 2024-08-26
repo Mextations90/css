@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+  
+html{
+    font-size: 62.5%;
+   
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+p{
+    font-size: 3.8rem;
+
+}
