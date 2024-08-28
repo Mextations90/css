@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive img</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- MALA PRACTICA
+    <main>
+        
+        <div class="picture">   
+        <img src="./img/Grande.jpg" alt="tortuga">
+        </div>
+    </main> -->
+
+    <!-- BUENA PRACTICA -->
+    <main>
+        <picture>
+            <source media="(min-width:1500px)" srcset="./img/grande.jpg">
+            <source media="(min-width:1000px)" srcset="./img/mediana.jpg"> 
+            <img src="./img/pequeña.jpg" alt="tortuga">
+        </picture>
+    </main>
+
+</body>
+</html>

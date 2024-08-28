@@ -1,0 +1,4 @@
+/* Buena practica es esta para que el contenedor hijo tome el 100% del contenedor padre  */
+img{
+    width: 100%;
+}
